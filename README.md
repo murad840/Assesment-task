@@ -30,7 +30,7 @@ kubectl get ing
 
 in this command v2 is version number.you can use any pattern for versions.
 ```javascript
-chmod +X automation-script.sh #only once 
+chmod +x automation-script.sh #only once 
 ./automation-script.sh v2 
 ```
 
