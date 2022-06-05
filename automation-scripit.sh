@@ -1,5 +1,6 @@
 #!/bin/bash
-set -e 
+set -e
+eval $(minikube docker-env)
 echo "Building Docker Image "
 cd web/
 docker build -t web:$1 .
